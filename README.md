@@ -5,10 +5,10 @@ A **Mandelbrot & Julia** fractal visual explorer written in Java.
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/miguelperezgascon/fractal-visualizer/main/assets/fm1.gif" alt="Mandelbrot demo" width="100%" />
+      <img src="https://raw.githubusercontent.com/miguelperezgascon/fractal-visualizer/main/assets/fm2.gif" alt="Mandelbrot demo" width="100%" />
     </td>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/miguelperezgascon/fractal-visualizer/main/assets/fj1.gif" alt="Julia demo" width="100%" />
+      <img src="https://raw.githubusercontent.com/miguelperezgascon/fractal-visualizer/main/assets/fj2.gif" alt="Julia demo" width="100%" />
     </td>
   </tr>
 </table>
