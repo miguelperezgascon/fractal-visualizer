@@ -2,19 +2,21 @@
 
 A **Mandelbrot & Julia** fractal visual explorer written in Java.
 
-```
-![](assets/fm1.gif)
-![](assets/fj1.gif)
-```
-
----
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/miguelperezgascon/fractal-visualizer/main/assets/fm1.gif" alt="Mandelbrot demo" width="100%" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/miguelperezgascon/fractal-visualizer/main/assets/fj1.gif" alt="Julia demo" width="100%" />
+    </td>
+  </tr>
+</table>
 
 ## Requirements
 
 * Java JDK 8 or newer (Java 11+ recommended).
 * No external libraries required.
-
----
 
 ## Build
 
@@ -26,8 +28,6 @@ javac FractalVisualizer.java
 
 This produces `.class` files (including inner classes like `FractalVisualizer$1.class`, etc.).
 
----
-
 ## Run
 
 ```
@@ -35,8 +35,6 @@ java FractalVisualizer
 ```
 
 These commands work on Linux, macOS and Windows as long as `javac`/`java` are on your PATH.
-
----
 
 ## Controls
 
@@ -47,8 +45,6 @@ These commands work on Linux, macOS and Windows as long as `javac`/`java` are on
 * `M` / `J` — switch Mandelbrot / Julia
 * Left click (Julia mode) — set Julia parameter `c`
 * `Space` — reset view
-
----
 
 ## Clean compiled files
 
@@ -72,11 +68,8 @@ Windows (CMD):
 del *.class
 ```
 
----
-
 ## Notes
 
 * The renderer is multithreaded and cancels previous renders for snappy interaction.
 * Uses `double` precision: at extremely deep zooms floating-point precision limits may make details indistinguishable. Increasing iterations alone does not solve this; for arbitrary-precision zooms a different approach is required (out of scope for this minimal demo).
 
----
