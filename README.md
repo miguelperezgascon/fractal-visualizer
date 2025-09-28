@@ -3,7 +3,8 @@
 A **Mandelbrot & Julia** fractal visual explorer written in Java.
 
 ```
-![Demo](assets/demo.gif)
+![](./assets/fm1.gif)
+![](./assets/fj1.gif)
 ```
 
 ---
